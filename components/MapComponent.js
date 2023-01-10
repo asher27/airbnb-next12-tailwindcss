@@ -40,10 +40,8 @@ function MapComponent({searchResults}) {
                     searchResults.map((result, i) => (
                         <div key={i}>
                         <Marker
-
                             longitude={Number(result.long)}
                             latitude={Number(result.lat)}
-
                             offsetLeft={-20}
                             offsetTop={-10}
                         >
